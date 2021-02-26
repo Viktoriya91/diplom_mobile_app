@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExtractMainActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="387dp"
+        android:layout_height="295dp"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="10dp"
+        android:translationY="250dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="106dp"
+        android:layout_height="36dp"
+        android:text="Файл:"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="10dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="80dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="389dp"
+        android:layout_height="47dp"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="10dp"
+        android:translationY="130dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="386dp"
+        android:layout_height="49dp"
+        android:text="цифровой водяной знак"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="10dp"
+        android:translationY="190dp" />
+</RelativeLayout>
