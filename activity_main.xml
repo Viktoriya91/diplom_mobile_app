@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выйти из аккаунта"
+        android:translationY="410dp" />
+
+    <Button
+        android:id="@+id/bt_opendevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть файл"
+        android:textColorHint="#8BBDE4"
+        android:translationY="200dp"></Button>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationX="120dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть почту"
+        android:textColorHint="#8BBDE4"
+        android:translationY="270dp"></Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Здравствуйте, "
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Что желаете сделать?"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:translationY="150dp" />
+
+    <Button
+        android:id="@+id/button_extract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Извлечь цифровой водяной знак"
+        android:translationY="340dp" />
+
+    <ImageView
+        android:id="@+id/imageView_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</RelativeLayout>
